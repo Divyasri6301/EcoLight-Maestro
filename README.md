@@ -35,6 +35,29 @@ EcoLight Maestro is an intelligent street lighting system developed using the AR
 ## Working Principle
 
 The system continuously monitors ambient light using an LDR sensor. Based on light intensity and RTC timing, the controller automatically switches street lights ON or OFF. Users can configure time settings through a keypad interface.
+Start
+   ↓
+Initialize LCD
+   ↓
+Initialize RTC
+   ↓
+Initialize ADC
+   ↓
+Read Time
+   ↓
+Check Day/Night
+   ↓
+Read LDR
+   ↓
+Control LEDs
+   ↓
+Interrupt?
+   ↓
+Open RTC Menu
+   ↓
+Update Parameters
+   ↓
+Return
 
 ## Results
 
