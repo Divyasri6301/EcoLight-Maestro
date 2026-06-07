@@ -1,27 +1,47 @@
 
 # EcoLight Maestro
 
-## Overview
-EcoLight Maestro is an intelligent street light automation system developed using the ARM7 LPC2129 microcontroller.
+Time & Intensity Adaptive Street Light Automation System
 
-The system automatically controls street lights based on real-time light intensity and time settings, reducing unnecessary power consumption.
+## Overview
+
+EcoLight Maestro is an intelligent street lighting system developed using the ARM7 LPC2129 microcontroller. The system automatically controls street lights based on ambient light intensity and real-time clock scheduling to reduce energy consumption and improve efficiency.
 
 ## Features
-- Automatic day/night switching
-- RTC based scheduling
-- LDR based light detection
-- Manual override option
-- Interrupt driven control
 
-## Technologies Used
-- Embedded C
-- ARM7 LPC2129
-- RTC
-- ADC
-- LDR
-- LCD
-- Keypad
-- Keil uVision
+* Automatic day/night switching using LDR
+* RTC-based scheduling
+* Interrupt-driven architecture
+* Keypad-based RTC configuration
+* Manual override functionality
+* Energy-efficient operation
 
-## Outcome
-The system helps reduce energy wastage by automatically managing street lighting based on environmental conditions.
+## Hardware Used
+
+* LPC2129 ARM7 Microcontroller
+* LDR Sensor
+* RTC
+* LCD Display
+* Keypad
+* LEDs
+* Power Supply
+
+## Software Used
+
+* Embedded C
+* Keil µVision
+* Flash Magic
+
+## Working Principle
+
+The system continuously monitors ambient light using an LDR sensor. Based on light intensity and RTC timing, the controller automatically switches street lights ON or OFF. Users can configure time settings through a keypad interface.
+
+## Results
+
+* Reduced unnecessary daytime power consumption.
+* Achieved approximately 30–40% energy savings.
+* Real-time street light automation.
+
+## Author
+
+Divya Sri
