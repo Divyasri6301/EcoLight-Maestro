@@ -44,4 +44,4 @@ The system continuously monitors ambient light using an LDR sensor. Based on lig
 
 ## Author
 
-Divya Sri
+DivyaSri
